@@ -89,28 +89,6 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
   </div>
 </div>
 
-### Power Systems
-
-<br>
-
-- Power Flow
-- Stability Analysis
-- Fault Analysis
-- System Protection
-- Load Forecasting
-- Renewable Energy Integration
-
-<br>
-
-### Power Electronics
-
-<br>
-
-- Converters
-- Inverters
-- Rectifiers
-- Magnetics
-- Control Systems 
 
 <br><br>
 
@@ -123,27 +101,29 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
 
 <br>
 
-### Coding
-
-<br>
-
-- C/C++
-- Python
-- MatLab
-- Verilog 
-
-<br>
-
-### Software
-
-<br>
-
-- LTSpice
-- Altium Designer
-- Fusion
-- KiCad
-- Revit
-- ETAP
+<div style="display: flex; gap: 60px;">
+  <div> 
+    <h3>Software</h3>
+    <ul>
+      <li>LTSpice</li>
+      <li>Altium Designer</li>
+      <li>Autodesk Fusion</li>
+      <li>KiCad</li>
+      <li>Revit</li>
+      <li>ETAP</li>
+    </ul>
+  </div>
+  <div>  
+    <h3>Coding</h3>
+    <ul>
+      <li>C/C++</li>
+      <li>Python</li>
+      <li>MatLab</li>
+      <li>Verilog</li>
+      <li>Binary</li>
+    </ul>
+  </div>
+</div>
 
 <br><br>
 
