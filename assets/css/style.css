@@ -9,7 +9,7 @@ nav.sticky-navbar {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #777;
+  background-color: #333;
   padding: 3em, 0;
   z-index: 1000;
   text-align: center;
@@ -41,8 +41,8 @@ nav.sticky-navbar a {
 }
 
 body {
-  background-color: #fafafa;
-  color: #020202;
+  background-color: #3a3a3a;
+  color: #f2f2f2;
   font-family: "Segoe UI", Helvetica, sans-serif;
   margin: 0;
   padding: 0;
@@ -58,7 +58,7 @@ body {
 }
 
 p {
-  color: black;
+  color: white;
 }
 
 a {
