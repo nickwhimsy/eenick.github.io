@@ -46,6 +46,7 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
 ### Power Systems
 
 <br>
+
 - Power flow, Stability Analysis, Fault Analysis, System Protection, Load Forecasting, Renewable Energy Integration
 
 <br>
