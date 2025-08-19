@@ -5,6 +5,10 @@ title: Home
 
 <br><br>
 
+# Nicholas Chavez | Electrical Engineering Portfolio Site
+
+<br>
+
 # Welcome to My EE Portfolio 👋
 
 <br>
