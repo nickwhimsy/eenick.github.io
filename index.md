@@ -120,7 +120,6 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
       <li>Python</li>
       <li>MatLab</li>
       <li>Verilog</li>
-      <li>Binary</li>
     </ul>
   </div>
 </div>
