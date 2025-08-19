@@ -39,24 +39,6 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
 
 <br><br>
 
-<div style="display: flex; gap: 40px;">
-  <ul>
-    <li>Point A1</li>
-    <li>Point A2</li>
-    <li>Point A3</li>
-  </ul>
-  <ul>
-    <li>Point B1</li>
-    <li>Point B2</li>
-    <li>Point B3</li>
-  </ul>
-  <ul>
-    <li>Point C1</li>
-    <li>Point C2</li>
-    <li>Point C3</li>
-  </ul>
-</div>
-
 ## 📝 Skills
 
 <br>
@@ -65,13 +47,19 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
 
 <br>
 
-- Circuit Design & Analysis
-- PCB Design
-- Embedded Systems
-- FPGA Programming
-- Transmission Line Theory
-- IEEE Standard Complience
-- FCC Standard Complience
+<div style="display: flex; gap: 50px;">
+  <ul>
+    <li>Circuit Design & Analysis</li>
+    <li>PCB Design A2</li>
+    <li>Embedded Systems</li>
+    <li>FPGA Programming</li>
+    <li>Transmission Line Theory</li>
+  </ul>
+  <ul>
+    <li>IEEE Standard Complience</li>
+    <li>FCC Standard Complience</li>
+  </ul>
+</div>
 
 <br>
 
