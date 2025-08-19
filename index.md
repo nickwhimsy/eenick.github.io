@@ -9,11 +9,7 @@ title: Home
 
 <br>
 
-I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Electronics and Embedded Systems.
-
-<br><br>
-
----
+I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and Power Electronics.
 
 <br><br>
 
@@ -28,6 +24,18 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Electronics a
 - [ESP32 Solar Harvester](https://github.com/eenick/esp32-solar-harvester)
 
 
+
+<br><br>
+
+---
+
+<br><br>
+
+## 📝 Skills
+
+<br>
+#Power Systems
+- Power flow, Stability, Fault Analysis, System Protection
 
 <br><br>
 
