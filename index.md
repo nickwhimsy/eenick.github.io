@@ -66,8 +66,8 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
 <br>
 
 <div style="display: flex; gap: 40px;">
-  <div>
-    ### Power Systems
+  <div> 
+   ### Power Systems
     <ul>
       <li>Power Flow</li>
       <li>Stability Analysis</li>
