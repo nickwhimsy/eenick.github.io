@@ -54,6 +54,8 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
     <li>Embedded Systems</li>
     <li>FPGA Programming</li>
     <li>Transmission Line Theory</li>
+    <li>IEEE Standard Complience</li>
+    <li>FCC Standard Complience</li>
   </ul>
   <ul>
     <li>IEEE Standard Complience</li>
@@ -62,6 +64,30 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
 </div>
 
 <br>
+
+<div style="display: flex; gap: 40px;">
+  <div>
+    ### Power Systems
+    <ul>
+      <li>Power Flow</li>
+      <li>Stability Analysis</li>
+      <li>Fault Analysis</li>
+      <li>System Protection</li>
+      <li>Load Forcasting</li>
+      <li>Renewable Energy Integration</li>
+    </ul>
+  </div>
+  <div>
+    ### Power Electronics
+    <ul>
+      <li>Converters</li>
+      <li>Inverters</li>
+      <li>Rectifiers</li>
+      <li>Magnetics</li>
+      <li>Control Systems</li>
+    </ul>
+  </div>
+</div>
 
 ### Power Systems
 
