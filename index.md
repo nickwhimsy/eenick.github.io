@@ -54,12 +54,10 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
     <li>Embedded Systems</li>
     <li>FPGA Programming</li>
     <li>Transmission Line Theory</li>
-    <li>IEEE Standard Complience</li>
-    <li>FCC Complience</li>
   </ul>
   <ul>
     <li>IEEE Standard Complience</li>
-    <li>FCC Standard Complience</li>
+    <li>FCC Complience</li>
   </ul>
 </div>
 
