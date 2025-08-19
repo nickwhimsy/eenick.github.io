@@ -21,7 +21,7 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
 
 <br>
 
-- [ESP32 Solar Harvester](https://github.com/eenick/esp32-solar-harvester)
+- [Solar Power Harvester w/ Digital System Protections](https://github.com/eenick/esp32-solar-harvester)
 
 
 
@@ -35,10 +35,26 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
 
 <br>
 
+### General
+
+<br>
+
+- Circuit Design & Analysis, PCB Design, Embedded Systems, Transmission Line Theory, IEEE Standard Complience, FCC Standard Complience
+
+<br>
+
 ### Power Systems
 
 <br>
-- Power flow, Stability, Fault Analysis, System Protection
+- Power flow, Stability Analysis, Fault Analysis, System Protection, Load Forecasting, Renewable Energy Integration
+
+<br>
+
+### Power Electronics
+
+<br>
+
+- Power Converters, Inverters, Rectifiers, Magnetics, 
 
 <br><br>
 
