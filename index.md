@@ -79,7 +79,7 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
 
 <br><br>
 
-## 📝 Tools
+## 🧰 Tools
 
 <br>
 
