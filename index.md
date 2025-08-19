@@ -47,7 +47,7 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
 
 <br>
 
-<div style="display: flex; gap: 50px;">
+<div style="display: flex; gap: 60px;">
   <ul>
     <li>Circuit Design & Analysis</li>
     <li>PCB Design A2</li>
@@ -65,9 +65,9 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
 
 <br>
 
-<div style="display: flex; gap: 40px;">
+<div style="display: flex; gap: 60px;">
   <div> 
- ### Power Systems
+    <h3>Power Systems</h3>
     <ul>
       <li>Power Flow</li>
       <li>Stability Analysis</li>
@@ -78,7 +78,7 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
     </ul>
   </div>
   <div>  
-  ### Power Electronics
+    <h3>Power Electronics</h3>
     <ul>
       <li>Converters</li>
       <li>Inverters</li>
