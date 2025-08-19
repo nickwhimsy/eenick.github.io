@@ -9,7 +9,7 @@ title: Home
 
 <br>
 
-![Banner](images/banner.png){: width="800"}
+![Banner](images/banner.png){: width="800" }
 
 <br>
 
