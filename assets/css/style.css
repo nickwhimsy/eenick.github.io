@@ -32,6 +32,14 @@ nav.sticky-navbar a {
   display: inline-block;
 }
 
+.banner {
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 body {
   background-color: #3a3a3a;
   color: #f2f2f2;
