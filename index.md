@@ -39,6 +39,24 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
 
 <br><br>
 
+<div style="display: flex; gap: 40px;">
+  <ul>
+    <li>Point A1</li>
+    <li>Point A2</li>
+    <li>Point A3</li>
+  </ul>
+  <ul>
+    <li>Point B1</li>
+    <li>Point B2</li>
+    <li>Point B3</li>
+  </ul>
+  <ul>
+    <li>Point C1</li>
+    <li>Point C2</li>
+    <li>Point C3</li>
+  </ul>
+</div>
+
 ## 📝 Skills
 
 <br>
