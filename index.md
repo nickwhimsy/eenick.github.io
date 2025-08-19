@@ -9,6 +9,10 @@ title: Home
 
 <br>
 
+![Banner](images/banner.png)
+
+<br>
+
 ## Welcome to My EE Portfolio 👋
 
 <br>
