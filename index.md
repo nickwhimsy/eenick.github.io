@@ -9,7 +9,7 @@ title: Home
 
 <br>
 
-# Welcome to My EE Portfolio 👋
+## Welcome to My EE Portfolio 👋
 
 <br>
 
