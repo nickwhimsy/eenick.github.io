@@ -9,7 +9,7 @@ title: Home
 
 <br>
 
-I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and Power Electronics.
+I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and Power Electronics. I also have an interest in FPGAs, Embedded Systems, and High Frequency PCB Design.
 
 <br><br>
 
@@ -39,7 +39,13 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
 
 <br>
 
-- Circuit Design & Analysis, PCB Design, Embedded Systems, Transmission Line Theory, IEEE Standard Complience, FCC Standard Complience
+- Circuit Design & Analysis
+- PCB Design
+- Embedded Systems
+- FPGA Programming
+- Transmission Line Theory
+- IEEE Standard Complience
+- FCC Standard Complience
 
 <br>
 
@@ -47,7 +53,12 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
 
 <br>
 
-- Power Flow, Stability Analysis, Fault Analysis, System Protection, Load Forecasting, Renewable Energy Integration
+- Power Flow
+- Stability Analysis
+- Fault Analysis
+- System Protection
+- Load Forecasting
+- Renewable Energy Integration
 
 <br>
 
@@ -55,7 +66,11 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
 
 <br>
 
-- Power Converters, Inverters, Rectifiers, Magnetics, Control Systems 
+- Converters
+- Inverters
+- Rectifiers
+- Magnetics
+- Control Systems 
 
 <br><br>
 
@@ -72,7 +87,10 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
 
 <br>
 
-- C/C++, Python , MatLab, Verilog 
+- C/C++
+- Python
+- MatLab
+- Verilog 
 
 <br>
 
@@ -80,7 +98,12 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
 
 <br>
 
-- LTSpice, Altium Designer, Revit, ETAP
+- LTSpice
+- Altium Designer
+- Fusion
+- KiCad
+- Revit
+- ETAP
 
 <br><br>
 
