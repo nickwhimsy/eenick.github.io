@@ -9,7 +9,7 @@ title: Home
 
 <br>
 
-![Banner](images/banner.png){: width="800" }
+<img src="images/banner.png" alt="Banner" class="banner">
 
 <br>
 
