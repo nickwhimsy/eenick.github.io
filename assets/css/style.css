@@ -41,8 +41,8 @@ nav.sticky-navbar a {
 }
 
 body {
-  background-color: #3a3a3a;
-  color: #f2f2f2;
+  background-color: #fafafa;
+  color: #020202;
   font-family: "Segoe UI", Helvetica, sans-serif;
   margin: 0;
   padding: 0;
@@ -58,11 +58,11 @@ body {
 }
 
 p {
-  color: white;
+  color: black;
 }
 
 a {
-  color: #ffcc66;
+  color: #000000;
   text-decoration: none;
 }
 
