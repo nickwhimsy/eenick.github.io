@@ -76,7 +76,7 @@ title: Projects
 
   <a href="/Projects/Solar_Power_Conditioning.html" class="project-card">
     <img src="/images/EE_Question.jpg" alt="ESP32 Solar Harvester">
-    <h3>ESP32 Solar Harvester</h3>
+    <h3>Solar Harvester w/ Digital Protections</h3>
     <p>Solar-powered telemetry with ESP32 and supercapacitor storage.</p>
   </a>
 
