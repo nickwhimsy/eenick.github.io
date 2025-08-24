@@ -75,6 +75,11 @@ title: Study Projects
   <a href="Traffic_Light_Controller_FSM.html" class="study-tile"><h3>FSM Traffic Light Controller</h3></a>
   <a href="8_bit_ALU.html" class="study-tile"><h3>8-bit ALU</h3></a>
   <a href="Buzzer_Note_Generator.html" class="study-tile"><h3>Buzzer Note Generator</h3></a>
+
+  <a href="VGA_Controller.html" class="study-tile"><h3>VGA Display Controller</h3></a>
+  <a href="8_bit_CPU.html" class="study-tile"><h3>8-bit RISC CPU Core</h3></a>
+
+  
 </div>
 
 ---
