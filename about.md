@@ -131,5 +131,4 @@ This section is intended to showcase smaller-scale projects and design exercises
 
 <details class="study-section">
   <summary>📡 Miscellaneous</summary>
-  <a href="study.html" class="study-tile"><h3>Reserved Project</h3></a>
 </details>
