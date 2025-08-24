@@ -9,7 +9,7 @@ title: Home
 
 <br>
 
-<img src="images/banner.png" alt="Banner" class="banner">
+<img src="images/banner.jpg" alt="Banner" class="banner">
 
 <br>
 
