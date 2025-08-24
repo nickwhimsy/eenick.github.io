@@ -50,7 +50,7 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
 <div style="display: flex; gap: 60px;">
   <ul>
     <li>Circuit Design & Analysis</li>
-    <li>PCB Design A2</li>
+    <li>PCB Design</li>
     <li>Embedded Systems</li>
     <li>FPGA Programming</li>
     <li>Transmission Line Theory</li>
