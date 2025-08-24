@@ -81,7 +81,7 @@ title: Projects
   </a>
 
   <a href="/Projects/UHF_RFID_Interrogator.html" class="project-card">
-    <img src="/images/RFID_Interrogator.JPG" alt="USB C Power Brick">
+    <img src="/images/RFID_Interrogator.JPG" alt="RFID Interrogator">
     <h3>UHF RFID Interrogator </h3>
     <p>Ultra High Frequency RFID Interrogator - Senior Project </p>
   </a>
