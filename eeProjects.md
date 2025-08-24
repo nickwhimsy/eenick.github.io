@@ -75,13 +75,13 @@ title: Projects
   </a>
 
   <a href="/Projects/Solar_Power_Conditioning.html" class="project-card">
-    <img src="/images/EE_Question.jpg" alt="ESP32 Solar Harvester">
+    <img src="/images/Solar_Power_Conditioning.JPG" alt="ESP32 Solar Harvester">
     <h3>Solar Harvester w/ Digital Protections</h3>
     <p>Solar-powered telemetry with ESP32 and supercapacitor storage.</p>
   </a>
 
   <a href="/Projects/UHF_RFID_Interrogator.html" class="project-card">
-    <img src="/images/EE_Question.jpg" alt="USB C Power Brick">
+    <img src="/images/RFID_Interrogator.JPG" alt="USB C Power Brick">
     <h3>UHF RFID Interrogator </h3>
     <p>Ultra High Frequency RFID Interrogator - Senior Project </p>
   </a>
