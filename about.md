@@ -38,7 +38,43 @@ title: Designs
   font-size: 1.1em;
   color: white;
 }
+
+details {
+  margin-bottom: 1.5em;
+  background: #121212;
+  border-radius: 8px;
+  padding: 0.5em 1em;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
+summary {
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #66ccff;
+  outline: none;
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none; /* hide default arrow */
+}
+
+/* Optional custom arrow indicator */
+summary::after {
+  content: " ▼";
+  font-size: 0.9em;
+  transition: transform 0.2s;
+}
+
+details[open] summary::after {
+  transform: rotate(-180deg);
+}
+
 </style>
+
+
+
 
 # 📘 Study Projects
 
@@ -49,11 +85,12 @@ title: Designs
 
 ### 🔌 Power Electronics
 
-<div class="study-section">
+<details class="study-section">
+  <summary>🔌 Power Electronics</summary>
   <a href="Buck_3V3-5V_in_1V_out_10W.html" class="study-tile"><h3>10W Buck 3.3-5V to 1V</h3></a>
   <a href="Boost_20V-30V_in_40V_out_600W.html" class="study-tile"><h3>600W Boost 20-30V to 40V</h3></a>
   <a href="BuckBoost_30V-60V_in_(-45)V_out_300W.html" class="study-tile"><h3>300W Buck-Boost 30-60V to 40V</h3></a>
-</div>
+</details>
 
 ---
 <br>
