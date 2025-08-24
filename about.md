@@ -83,8 +83,6 @@ details[open] summary::after {
 ---
 <br>
 
-### 🔌 Power Electronics
-
 <details class="study-section">
   <summary>🔌 Power Electronics</summary>
   <a href="Buck_3V3-5V_in_1V_out_10W.html" class="study-tile"><h3>10W Buck 3.3-5V to 1V</h3></a>
@@ -95,32 +93,39 @@ details[open] summary::after {
 ---
 <br>
 
-### ⌨  Embedded Systems
-
-<div class="study-section">
-  <a href="RTC_Clock.html" class="study-tile"><h3>RTC CLock</h3></a>
-  <a href="I2C_Tempurature_Sensor.html" class="study-tile"><h3>I2C Temperature Sensor</h3></a>
-  <a href="SPI_OLED.html" class="study-tile"><h3>SPI OLED</h3></a>
-</div>
-
----
-<br>
-
-### 📟 FPGA
-
-<div class="study-section">
-  <a href="Traffic_Light_Controller_FSM.html" class="study-tile"><h3>FSM Traffic Light Controller</h3></a>
-  <a href="8_bit_ALU.html" class="study-tile"><h3>8-bit ALU</h3></a>
-  <a href="Buzzer_Note_Generator.html" class="study-tile"><h3>Buzzer Note Generator</h3></a>
-</div>
+<details class="study-section">
+  <summary>🔌 Power Systems </summary>
+  <a href="Buck_3V3-5V_in_1V_out_10W.html" class="study-tile"><h3>10W Buck 3.3-5V to 1V</h3></a>
+  <a href="Boost_20V-30V_in_40V_out_600W.html" class="study-tile"><h3>600W Boost 20-30V to 40V</h3></a>
+  <a href="BuckBoost_30V-60V_in_(-45)V_out_300W.html" class="study-tile"><h3>300W Buck-Boost 30-60V to 40V</h3></a>
+</details>
 
 ---
 <br>
 
-### 📡 Miscellaneous
+<details class="study-section">
+  <summary>🔌 Embedded Systems</summary>
+  <a href="Buck_3V3-5V_in_1V_out_10W.html" class="study-tile"><h3>10W Buck 3.3-5V to 1V</h3></a>
+  <a href="Boost_20V-30V_in_40V_out_600W.html" class="study-tile"><h3>600W Boost 20-30V to 40V</h3></a>
+  <a href="BuckBoost_30V-60V_in_(-45)V_out_300W.html" class="study-tile"><h3>300W Buck-Boost 30-60V to 40V</h3></a>
+</details>
 
-<div class="study-section">
-  <a href="study.html" class="study-tile"><h3>N/A</h3></a>
-  <a href="study.html" class="study-tile"><h3>N/A</h3></a>
-  <a href="study.html" class="study-tile"><h3>LTspice Thermal Simulation</h3></a>
-</div>
+---
+<br>
+
+<details class="study-section">
+  <summary>🔌 FPGA</summary>
+  <a href="Buck_3V3-5V_in_1V_out_10W.html" class="study-tile"><h3>10W Buck 3.3-5V to 1V</h3></a>
+  <a href="Boost_20V-30V_in_40V_out_600W.html" class="study-tile"><h3>600W Boost 20-30V to 40V</h3></a>
+  <a href="BuckBoost_30V-60V_in_(-45)V_out_300W.html" class="study-tile"><h3>300W Buck-Boost 30-60V to 40V</h3></a>
+</details>
+
+---
+<br>
+
+<details class="study-section">
+  <summary>🔌 Miscellaneous</summary>
+  <a href="Buck_3V3-5V_in_1V_out_10W.html" class="study-tile"><h3>10W Buck 3.3-5V to 1V</h3></a>
+  <a href="Boost_20V-30V_in_40V_out_600W.html" class="study-tile"><h3>600W Boost 20-30V to 40V</h3></a>
+  <a href="BuckBoost_30V-60V_in_(-45)V_out_300W.html" class="study-tile"><h3>300W Buck-Boost 30-60V to 40V</h3></a>
+</details>
