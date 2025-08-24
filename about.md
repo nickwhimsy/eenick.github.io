@@ -51,7 +51,7 @@ summary {
   cursor: pointer;
   font-size: 1.2em;
   font-weight: bold;
-  color: #66ccff;
+  color: #ffffff;
   outline: none;
   list-style: none;
 }
