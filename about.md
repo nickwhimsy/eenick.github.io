@@ -80,7 +80,7 @@ details[open] summary::after {
 
 <br>
 
-## This Page is in Development
+## This Page is in Development (Projects are not yet viewable)
 
 This section is intended to showcase smaller-scale projects and design exercises that focus on developing proficiency in specific techniques and technologies, rather than producing fully integrated systems.
 
