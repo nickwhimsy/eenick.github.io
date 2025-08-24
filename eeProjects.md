@@ -58,7 +58,7 @@ title: Projects
 
 </style>
 
-# ⚡ Electrical Engineering Projects
+# ⚡ Projects
 
 <div class="project-grid">
 
