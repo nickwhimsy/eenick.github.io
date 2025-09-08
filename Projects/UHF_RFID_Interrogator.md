@@ -45,6 +45,21 @@ $$
 
 where BW is the bandwidth, f0, is the center frequency and Q is the quality factor, which for RFID is typically 10-20. Solving for fowill then give the center frequency.
 
+$$
+f_0 = \frac{1}{2 \pi \sqrt{LC}}
+$$
+
+With this information, we can calculate values for the inductor and capacitor by utilizing the angular frequency, 0=2fo, and using the following equations.
+
+$$
+L = \frac{1}{\omega_0^2 C}
+$$
+
+$$
+C = \frac{1}{\omega_0^2 L}
+$$
+
+
 
 
 
