@@ -66,6 +66,8 @@ $$
 
 The signal integrity of the filter, however, depends on much more than just the capacitors and inductors used for the design. One important consideration is the material that the signal passes through. Since the intent is to utilize Ultra High Frequency (UHF) RFID, the material must have a low dielectric constant and low loss tangent. For this reason, a PCB material such as Rogers 4003C would be much more effective than a standard FR-4 material. Table 2 shows a comparison of the two materials.
 
+<div align="center">
+
 ### Table 2: Rogers 4003C vs FR4
 
 |  | Rogers 4003C | FR-4 |
@@ -74,8 +76,10 @@ The signal integrity of the filter, however, depends on much more than just the 
 | Loss Tangent | 0.0027 | 0.02 - 0.03 |
 | Impedance Stablility  | Excellent | Moderate |
 
+</div>
 
-
-
+<div align="center">
 
 <img src="https://github.com/nickwhimsy/eenick.github.io/blob/3b6dcc4a2d16cec37abf62329265e4ad5d283c77/assets/img/RFID_Interrogator/FilterBode.png" alt="Band Pass Bode Plot">
+
+</div>
