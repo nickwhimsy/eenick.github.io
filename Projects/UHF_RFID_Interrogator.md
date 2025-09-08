@@ -7,7 +7,7 @@ title: Projects
 
 The design for the reader was determined by certain needs. The need to ensure that the tags can be read from a distance, targeting 3 feet, and be cost-effective enough to undercut the cost of competitors by a few hundred dollars. The first aspect of meeting these requirements is to ensure that the design meets legal requirements for being sold. In the case of this project, the market was the US, which has requirements shown in Table 1.
 
-Table 1: Design Parameters
+### Table 1: Design Parameters
 
 | Parameter | Value |
 |:----------:|:----------:|
@@ -62,6 +62,7 @@ $$
 
 The signal integrity of the filter, however, depends on much more than just the capacitors and inductors used for the design. One important consideration is the material that the signal passes through. Since the intent is to utilize Ultra High Frequency (UHF) RFID, the material must have a low dielectric constant and low loss tangent. For this reason, a PCB material such as Rogers 4003C would be much more effective than a standard FR-4 material. Table 2 shows a comparison of the two materials.
 
+### Table 2: Rogers 4003C vs FR4
 
 |  | Rogers 4003C | FR-4 |
 |:----------:|:----------:|:---------:|
