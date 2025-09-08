@@ -39,7 +39,7 @@ In order to isolate the correct range, a Chebyshev filter design was used for it
 
 To ensure that the filter has the correct capacitor values we can use a few useful equations. First, knowing that our bandwidth is 902-928MHz, allows us to utilize the following equation:
 
-## $BW = \frac{f_0}{Q}$
+### $BW = \frac{f_0}{Q}$
 
 where BW is the bandwidth, f0, is the center frequency and Q is the quality factor, which for RFID is typically 10-20. Solving for fowill then give the center frequency.
 
