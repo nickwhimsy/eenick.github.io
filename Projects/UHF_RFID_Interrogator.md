@@ -9,6 +9,7 @@ The design for the reader was determined by certain needs. The need to ensure th
 
 
 <div align="center">
+  
 ### Table 1: Design Parameters
 
 | Parameter | Value |
@@ -18,6 +19,7 @@ The design for the reader was determined by certain needs. The need to ensure th
 | Max Transmitted Power  | +30 dBm | 
 | Data Rate | 26.7 Kbps - 128 Kbps | 
 | Reader Modulation  | DSB/SSB/PR-ASK  | 
+
 </div>
 
 On top of these requirements, the device should be functional in a variety of environments and should perform on par with more established brands.
