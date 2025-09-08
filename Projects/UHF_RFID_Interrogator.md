@@ -22,18 +22,12 @@ Table 1: Design Parameters
 
 <table>
   <tr>
-    <td> Operating Frequency  </td>
-    <td> Channel Spacing </td>
-    <td> Max Transmitted Power </td>
-    <td> Data Rate   </td>
-    <td> Reader Modulation  </td>
+    <td>Alice</td>
+    <td>10</td>
   </tr>
   <tr>
-    <td> Operating Frequency  </td>
-    <td> Channel Spacing </td>
-    <td> Max Transmitted Power </td>
-    <td> Data Rate   </td>
-    <td> Reader Modulation  </td>
+    <td>Bob</td>
+    <td>20</td>
   </tr>
 </table>
 
