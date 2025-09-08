@@ -10,7 +10,7 @@ The design for the reader was determined by certain needs. The need to ensure th
 
 <div align="center">
   
-### Table 1: Design Parameters
+Table 1: Design Parameters
 
 | Parameter | Value |
 |:----------:|:----------:|
