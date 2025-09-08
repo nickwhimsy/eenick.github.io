@@ -85,14 +85,7 @@ The signal integrity of the filter, however, depends on much more than just the 
 
 <div align="center">
 
-### Table 2: Rogers 4003C vs FR4
-
-|  | Rogers 4003C | FR-4 |
-|:----------:|:----------:|:---------:|
-| Dielectric Constant  | 3.3-3.5 | 4.5 |
-| Loss Tangent | 0.0027 | 0.02 - 0.03 |
-| Impedance Stablility  | Excellent | Moderate |
-
+Table 2: Rogers 4003C vs FR4
 
 <table border="1">
   <tr>
