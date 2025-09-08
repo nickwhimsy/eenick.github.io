@@ -93,6 +93,31 @@ The signal integrity of the filter, however, depends on much more than just the 
 | Loss Tangent | 0.0027 | 0.02 - 0.03 |
 | Impedance Stablility  | Excellent | Moderate |
 
+
+<table border="1">
+  <tr>
+    <th>Material</th>
+    <th>Rogers 4003C</th>
+    <th>FR-4</th>
+  </tr>
+  <tr>
+    <td>Dielectric Constant</td>
+    <td> 3.3-3.5</td>
+    <td>4.5</td>
+  </tr>
+  <tr>
+    <td>Loss Tangent  </td>
+    <td>0.0027</td>
+    <td>4.5</td>
+  </tr>
+  <tr>
+    <td>Impedance Stablility </td>
+    <td> Excellent </td>
+    <td>Moderate </td>
+  </tr>
+
+</table>
+
 </div>
 
 Signal integrity is at the core of the design, as it is important to minimize loss and reflections along the path of the signal. Another important consideration in this regard is ensuring that the traces follow a set of important rules in order to ensure that reflections and loss are minimized.
