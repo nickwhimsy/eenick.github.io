@@ -20,6 +20,25 @@ Table 1: Design Parameters
 | Data Rate             | 26.7 Kbps - 128 Kbps | 
 | Reader Modulation     | DSB/SSB/PR-ASK       |    
 
+<table>
+  <tr>
+    <th> Operating Frequency  </th>
+    <th> Channel Spacing </th>
+    <th> Max Transmitted Power </th>
+    <th> Data Rate   </th>
+    <th> Reader Modulation  </th>
+  </tr>
+  <tr>
+    <th> 902 MHz - 928 MHz  </th>
+    <th> 500 KHz </th>
+    <th> +30 dBm </th>
+    <th> Max Transmitted Power </th>
+    <th> Data Rate   </th>
+    <th> Reader Modulation  </th>
+  </tr>
+</table>
+
+
 </div>
 
 On top of these requirements, the device should be functional in a variety of environments and should perform on par with more established brands.
@@ -87,7 +106,7 @@ One aspect of this is ensuring that the traces maintain an impedance that is con
 
 <div align="center">
 
-<img src="https://github.com/nickwhimsy/eenick.github.io/blob/3b6dcc4a2d16cec37abf62329265e4ad5d283c77/assets/img/RFID_Interrogator/CoplanarWaveguide.png" alt="Coplanar Waveguide">
+<img src="UHF_RFID_Assets/CoplanarWaveguide.png" alt="Coplanar Waveguide">
 
 Figure 4: Coplanar Waveguide. (Altium Designer)
 
