@@ -22,19 +22,18 @@ Table 1: Design Parameters
 
 <table>
   <tr>
-    <th> Operating Frequency  </th>
-    <th> Channel Spacing </th>
-    <th> Max Transmitted Power </th>
-    <th> Data Rate   </th>
-    <th> Reader Modulation  </th>
+    <td> Operating Frequency  </td>
+    <td> Channel Spacing </td>
+    <td> Max Transmitted Power </td>
+    <td> Data Rate   </td>
+    <td> Reader Modulation  </td>
   </tr>
   <tr>
-    <th> 902 MHz - 928 MHz  </th>
-    <th> 500 KHz </th>
-    <th> +30 dBm </th>
-    <th> Max Transmitted Power </th>
-    <th> Data Rate   </th>
-    <th> Reader Modulation  </th>
+    <td> Operating Frequency  </td>
+    <td> Channel Spacing </td>
+    <td> Max Transmitted Power </td>
+    <td> Data Rate   </td>
+    <td> Reader Modulation  </td>
   </tr>
 </table>
 
