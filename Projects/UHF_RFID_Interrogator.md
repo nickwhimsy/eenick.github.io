@@ -104,7 +104,7 @@ $$
 
 <div align="center">
 
-<img src="https://github.com/nickwhimsy/eenick.github.io/blob/3b6dcc4a2d16cec37abf62329265e4ad5d283c77/assets/img/RFID_Interrogator/FilterBode.png" alt="Band Pass Bode Plot">
+<img src="Projects/UHF_RFID_Assets/FilterBode.png" alt="Band Pass Bode Plot">
 
 Figure 12: Bandpass filter frequency response.
 
