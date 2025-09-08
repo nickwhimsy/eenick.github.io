@@ -12,13 +12,13 @@ The design for the reader was determined by certain needs. The need to ensure th
   
 Table 1: Design Parameters
 
-| Parameter | Value |
-|:----------:|:----------:|
-| Operating Frequency | 902 MHz - 928 MHz | 
-| Channel Spacing | 500 KHz | 
-| Max Transmitted Power | +30 dBm | 
-| Data Rate | 26.7 Kbps - 128 Kbps | 
-| Reader Modulation | DSB/SSB/PR-ASK | 
+| Parameter  | Value |
+|:---------------------:|:--------------------:|
+| Operating Frequency   | 902 MHz - 928 MHz    | 
+| Channel Spacing       | 500 KHz              | 
+| Max Transmitted Power | +30 dBm              | 
+| Data Rate             | 26.7 Kbps - 128 Kbps | 
+| Reader Modulation     | DSB/SSB/PR-ASK       |    
 
 </div>
 
