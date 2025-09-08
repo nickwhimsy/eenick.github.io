@@ -11,11 +11,10 @@ Table 1: Design Parameters
 | Parameter | Value |
 |:----------:|:----------:|
 | Operating Frequency  | 902 MHz - 928 MHz  | 
-| Row 2C1  | Row 2C2  | 
-| Row 3C1  | Row 3C2  | 
-| Row 1C1  | Row 1C2  | 
-| Row 2C1  | Row 2C2  | 
-| Row 3C1  | Row 3C2  | 
+| Channel Spacing  | 500 KHz  | 
+| Max Transmitted Power  | +30 dBm | 
+| Data Rate | 26.7 Kbps - 128 Kbps | 
+| Reader Modulation  | DSB/SSB/PR-ASK  | 
 
 
 On top of these requirements, the device should be functional in a variety of environments and should perform on par with more established brands.
