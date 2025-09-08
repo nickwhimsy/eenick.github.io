@@ -104,9 +104,9 @@ One aspect of this is ensuring that the traces maintain an impedance that is con
 <div align="center">
 
 <img src="UHF_RFID_Assets/CoplanarWaveguide.png" alt="Coplanar Waveguide">
-
+<br>
 Figure 4: Coplanar Waveguide. (Altium Designer)
-
+<br>
 </div>
 
 
@@ -123,6 +123,6 @@ $$
 <img src="UHF_RFID_Assets/FilterBode.png" alt="Band Pass Bode Plot" style="max-width:100%; height:auto;">
 <br>
 Figure 12: Bandpass filter frequency response.
-
+<br>
 </div>
 
