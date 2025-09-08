@@ -22,12 +22,24 @@ Table 1: Design Parameters
 
 <table>
   <tr>
-    <td>Alice</td>
-    <td>10</td>
+    <td>Operating Frequency</td>
+    <td>902 MHz - 928 MHz</td>
   </tr>
   <tr>
-    <td>Bob</td>
-    <td>20</td>
+    <td>Channel Spacing  </td>
+    <td>500 KHz</td>
+  </tr>
+  <tr>
+    <td>Max Transmitted Power</td>
+    <td> +30 dBm </td>
+  </tr>
+  <tr>
+    <td> Data Rate </td>
+    <td> 26.7 Kbps - 128 Kbps</td>
+  </tr>
+  <tr>
+    <td> Reader Modulation  </td>
+    <td> DSB/SSB/PR-ASK </td>
   </tr>
 </table>
 
