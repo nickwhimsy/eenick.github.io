@@ -89,6 +89,8 @@ One aspect of this is ensuring that the traces maintain an impedance that is con
 
 <img src="https://github.com/nickwhimsy/eenick.github.io/blob/3b6dcc4a2d16cec37abf62329265e4ad5d283c77/assets/img/RFID_Interrogator/CoplanarWaveguide.png" alt="Coplanar Waveguide">
 
+Figure 4: Coplanar Waveguide. (Altium Designer)
+
 </div>
 
 
