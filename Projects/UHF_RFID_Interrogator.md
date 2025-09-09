@@ -7,7 +7,7 @@ title: Projects
 
 <br><br>
 
-# RFID Inventory Tracking System
+# RFID Interrogator
 
 ### Designed by: Nicholas Chavez, Pin-Yi Yeh
 
