@@ -29,7 +29,7 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
 
 <br>
 
-- [UHF RFID Interrogator]((https://eenick.dev/Projects/UHF_RFID_Interrogator.html))
+- [UHF RFID Interrogator](https://eenick.dev/Projects/UHF_RFID_Interrogator.html)
 
 
 
