@@ -4,9 +4,11 @@ title: Projects
 ---
 
 
-<br>
+<br><br>
+
 ---
-<br>
+
+<br><br>
 
 # Design objective and goal
 
