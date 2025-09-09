@@ -153,7 +153,7 @@ One aspect of this is ensuring that the traces maintain an impedance that is con
 <br>
 <div align="center">
 
-<img src="UHF_RFID_Assets/CoplanarWaveguide.png" alt="Coplanar Waveguide">
+<img src="UHF_RFID_Assets/CoplanarWaveguide.png" alt="Coplanar Waveguide" style="max-width:100%; height:auto;">
 <br>
 Figure 4: Coplanar Waveguide. (Altium Designer)
 <br>
@@ -182,7 +182,7 @@ This works for the single line traces, but there are also considerations that ne
 <br>
 <div align="center">
 
-<img src="UHF_RFID_Assets/DifferentialWaveguide.png" alt="Differential Coplanar Waveguide">
+<img src="UHF_RFID_Assets/DifferentialWaveguide.png" alt="Differential Coplanar Waveguide" style="max-width:100%; height:auto;">
 <br>
 Figure 5: Differential Coplanar Waveguide. (Altium Designer)
 <br>
