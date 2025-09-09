@@ -470,11 +470,11 @@ From the equation, we can get the maximum distance between the vias, which will 
 ## References
 
  Dobkin, D. M. (2008). *The RF in RFID: Passive UHF RFID in practice*. Elsevier / Newnes.
- <br>
+ <br><br>
  Sarma, Sanjay. (2009). “RFIDSim - A physical and logical layer simulation engine for passive RFID.” *Automation Science and Engineering, IEEE Transactions on*, 6, 33–43. [DOI: 10.1109/TASE.2008.2007929](https://doi.org/10.1109/TASE.2008.2007929)
- <br>
+ <br><br>
  Schweber, B. (2014, March 6). “The Smith chart: An ‘ancient’ graphical tool still vital in RF Design.” DigiKey. [Link](https://www.digikey.com/en/articles/the-smith-chart-an-ancient-graphical-tool-still-vital-in-rf-design)
- <br>
+ <br><br>
  Tait Radio Academy. (2018, January 2). “How does modulation work?” Tait Radio Academy. [Link](https://www.taitradioacademy.com/topic/how-does-modulation-work-1-1/)
 
 
