@@ -60,9 +60,11 @@ title: Projects
 
 # ⚡ Projects
 
-<!--
+
     
 <div class="project-grid">
+
+<!--
 
   <a href="/Projects/Retro_Handheld_w_Raspberry_CM5.html" class="project-card">
     <img src="/images/EE_Question.jpg" alt="Retro Handheld Design">
