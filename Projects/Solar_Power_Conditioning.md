@@ -22,7 +22,9 @@ title: Projects
   - Buck-Boost Converter
   - Oscilloscope
   - C Programming / Microcontroller Programming
-
+  - Analog and Digital Overvoltage Protection
+  - Digital Undervoltage Protection
+    
 <br><br>
 
 ---
