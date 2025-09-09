@@ -372,11 +372,15 @@ Figure 17: SPI Traces, length matched from ADCs and DACs to the microcontroller.
 
 In our design, we require various voltages for distinct purposes.
 
+
 5V: This voltage is delivered through a USB-C port, with a Fuse for overcurrent protection and a Transient Voltage Suppression (TVS) diode for overvoltage protection, ESD protection, and reverse polarity protection. Using a fuse and TVS diode can protect the circuit and ensure system stability. The schematic diagram can be seen in the figure 16.
+
  
 3.3V: This voltage is provided by the voltage regulator on the microcontroller board and delivered to the LNA.
+
  
 2V: This voltage is used to maintain voltage control. The Oscillator is about to produce the desired stable frequency. We choose to use a buck converter to provide a stable output voltage of 2V.
+
  
 1.5V: This voltage is needed for the transformers situated between the Modulator and the DAC. These transformers are designed to convert the single-ended signal into a differential signal, using the 1.5V to provide the necessary bias voltage for the Modulator. We selected an LDO to generate the 1.5V for the transformer because it features an ultra-low dropout voltage and a high power supply rejection ratio.
 
@@ -408,15 +412,21 @@ Figure 18: Power Delivery Layer.
 ​​In our UHF circuit design, applying shielding using via is essential to maintain signal integrity and minimize electromagnetic interference (EMI). Frequency in this range makes it easy to have crosstalk, ground bounce, and signal loss due to poor PCB layout. To fix this issue, we use shielding around critical signal paths such as UHF RF signals and differential pair signals.
 
 
+
 The main reasons for using via shielding for our design were:
+
 
 Reducing crosstalk: surround targeted signal with the ground via minimizing electromagnetic coupling.
 
+
 Stabilizing Ground Potential: shielding vias can provide an additional path for returning current. This can stabilize ground voltage and reduce ground pounce.
+
 
 Improve Signal Integrity: placing via around the trace and creating electromagnetic fields around the trace, which will reduce signal reflections and maintain clean transmission.
 
+
 Reducing EMI: Shielding Vias will act as a barrier, protecting sensitive components from other noise sources and improving overall performance.
+
 
 
 The placement of the shielding vias needs to be calculated in order to maximize performance. The calculation will need to consider our operating frequency ( $f_\text{max} = 928 \,\text{MHz}$ ) and dielectric properties of the Rogers PCB ($\varepsilon_\gamma = 3.5$). The maximum spacing can be calculated by using the equation shown below. c is the speed of light ( $3 \times 10^8 \,\text{m/s}$ ).
