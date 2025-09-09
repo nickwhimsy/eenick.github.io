@@ -16,8 +16,12 @@ title: Projects
 <br><br>
 
 ### Featured Skills and Tools:
-  -
-  
+  - Circuit Design & Analysis
+  - Embedded Systems
+  - IEEE Standard Complience
+  - Buck-Boost Converter
+  - Oscilloscope
+  - C Programming / Microcontroller Programming
 
 <br><br>
 
