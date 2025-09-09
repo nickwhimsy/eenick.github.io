@@ -2,7 +2,13 @@
 layout: default
 title: Projects
 ---
+<br><br>
 
+---
+
+<br><br>
+
+### Featured Skills:
 
 <br><br>
 
