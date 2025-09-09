@@ -443,9 +443,11 @@ Reducing EMI: Shielding Vias will act as a barrier, protecting sensitive compone
 The placement of the shielding vias needs to be calculated in order to maximize performance. The calculation will need to consider our operating frequency ( $f_\text{max} = 928 \,\text{MHz}$ ) and dielectric properties of the Rogers PCB ($\varepsilon_\gamma = 3.5$). The maximum spacing can be calculated by using the equation shown below. c is the speed of light ( $3 \times 10^8 \,\text{m/s}$ ).
 
 <br>
+
 $$
 \text{Max Via Spacing (mm)} = \frac{1}{10} \cdot \frac{c}{f \sqrt{\varepsilon_\gamma}}
 $$
+
 <br>
 
 From the equation, we can get the maximum distance between the vias, which will be approximately 10mm apart. Our design uses a distance of 1 mm because of the restricted board size. This 1 mm spacing enhances signal shielding, which is crucial for a compact PCB design.
