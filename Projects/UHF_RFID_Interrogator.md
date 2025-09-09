@@ -48,8 +48,15 @@ On top of these requirements, the device should be functional in a variety of en
 
 The fundamental purpose of RFID is to receive and send data. To do this over the air, it is most effective to utilize higher frequency bandwidths to prevent data loss from interference sources. However, processing frequencies at that speed is difficult, and as such, it becomes favorable to demodulate the frequency, so the data waveform can be analyzed at lower frequencies. For this, amplitude modulation is used. However, the receiving data can also include many unwanted interference signals from the environment or other electromagnetic sources, and so the signal needs to be filtered. The signal may also be weak, and as such it must also be amplified. Figure 1 shows the general processing of a signal from the antenna to the microcontroller.
 
+<br>
+<div align="center">
 
-
+<img src="UHF_RFID_Assets/RF_Process.png" alt="Band Pass Bode Plot" style="max-width:100%; height:auto;">
+<br>
+Figure 12: Bandpass filter frequency response.
+<br>
+</div>
+<br>
 
 From left to right, the weak signal enters the antenna and is filtered so only the desired range of frequencies is passed through, and then amplified. Here it goes into a mixer, with an oscillator, to then demodulate the signal, in order to leave only the peaks that contain the data. That signal is then processed through the Analog to digital converter, and is output as a digital signal, in this case, Serial Protocol Interface, or SPI.
 
