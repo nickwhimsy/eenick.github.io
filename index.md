@@ -56,6 +56,8 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
     <li>Transmission Line Theory</li>
   </ul>
   <ul>
+    <li>Oscilloscopes</li>
+    <li>Spectrum Analyzer</li>
     <li>IEEE Standard Complience</li>
     <li>FCC Complience</li>
   </ul>
