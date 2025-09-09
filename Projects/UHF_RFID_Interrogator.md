@@ -51,9 +51,9 @@ The fundamental purpose of RFID is to receive and send data. To do this over the
 <br>
 <div align="center">
 
-<img src="UHF_RFID_Assets/RF_Process.png" alt="Band Pass Bode Plot" style="max-width:100%; height:auto;">
+<img src="UHF_RFID_Assets/RF_Process.png" alt="RF Signal Diagram" style="max-width:100%; height:auto;">
 <br>
-Figure 12: Bandpass filter frequency response.
+Figure 1: The RF Signal Processing diagram showing the signal at each stage. (Dobkin, 2008)
 <br>
 </div>
 <br>
@@ -62,12 +62,28 @@ From left to right, the weak signal enters the antenna and is filtered so only t
 
 One of the first decisions to be made was the frequency range that needed to be isolated. Since the goal was UHF, and the market was in the US, the range was 902MHz - 928MHz, per the FCC standards. In order to isolate a range, a bandpass filter is used, getting a frequency response as shown in Figure 2.
 
+<br>
+<div align="center">
 
+<img src="UHF_RFID_Assets/GenericBode.png" alt="General Band Pass Bode Plot" style="max-width:100%; height:auto;">
+<br>
+Figure 2: Band Pass Filter Bode Plot. (Heath, 2021)
+<br>
+</div>
+<br>
 
 
 In order to isolate the correct range, a Chebyshev filter design was used for its steep roll-off properties, better isolating the passband portion of the filter. Figure 3 shows an example of a Chebyshev filter.
 
+<br>
+<div align="center">
 
+<img src="UHF_RFID_Assets/ChebyshevFilter.png" alt="Chebyshev filter schematic" style="max-width:100%; height:auto;">
+<br>
+Figure 3: Chebyshev bandpass filter.
+<br>
+</div>
+<br>
 
 To ensure that the filter has the correct capacitor values we can use a few useful equations. First, knowing that our bandwidth is 902-928MHz, allows us to utilize the following equation:
 
@@ -134,7 +150,7 @@ Signal integrity is at the core of the design, as it is important to minimize lo
 
 One aspect of this is ensuring that the traces maintain an impedance that is consistent across the circuit. To ensure that the signal was well shielded as well, we chose a coplanar waveguide as shown in Figure 4.
 
-
+<br>
 <div align="center">
 
 <img src="UHF_RFID_Assets/CoplanarWaveguide.png" alt="Coplanar Waveguide">
@@ -142,7 +158,7 @@ One aspect of this is ensuring that the traces maintain an impedance that is con
 Figure 4: Coplanar Waveguide. (Altium Designer)
 <br>
 </div>
-
+<br>
 
 The target impedance for RFID antenna is 50, which means our traces need a characteristic impedance, Z0, that is the same. The impedance of a copper trace is defined by the cross-sectional area, and as the thickness can be defined at the standard 1OZ or .035mm, the width is the parameter that needs to be defined. This can be done via the equation:
 
@@ -150,8 +166,34 @@ $$
 Z_0 = \frac{60}{\sqrt{\varepsilon_\text{eff}}} \ln\left( 1 + \frac{4h}{w + 2g} \right)
 $$
 
+where,
+
+$$
+\varepsilon_\text{eff} = \frac{\varepsilon_r + 1}{2} + \frac{\varepsilon_r - 1}{2} \cdot \frac{1}{\sqrt{1 + 12 \frac{h}{w}}}
+$$
 
 
+and r is the substrate’s dielectric constant, h is the height of the substrate, w is the width of the trace, and g is the gap between the trace and ground.
+
+
+This works for the single line traces, but there are also considerations that need to be made when incorporating differential traces (Figure 5), which are needed for the modulator and demodulator receiving and sending differential signals to the ADC and DAC respectively. The same equation cannot be used however for these traces, as the mechanics for the traveling wave differ in a differential waveguide.
+
+
+<br>
+<div align="center">
+
+<img src="UHF_RFID_Assets/DifferentialWaveguide.png" alt="Differential Coplanar Waveguide">
+<br>
+Figure 5: Differential Coplanar Waveguide. (Altium Designer)
+<br>
+</div>
+<br>
+
+For a differential waveguide, it is necessary to utilize the differential impedance rather than the characteristic impedance. To find this, the equation,
+
+
+
+<br>
 <div align="center">
 
 <img src="UHF_RFID_Assets/FilterBode.png" alt="Band Pass Bode Plot" style="max-width:100%; height:auto;">
@@ -159,4 +201,4 @@ $$
 Figure 12: Bandpass filter frequency response.
 <br>
 </div>
-
+<br>
