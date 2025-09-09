@@ -490,7 +490,7 @@ The final Product:
 
 <img src="UHF_RFID_Assets/RFID_Interrogator.JPG" alt="RFID Interrogator" style="max-width:100%; height:auto;">
 <br>
-Figure 19: Finalized Product
+Figure 19: Fabricated PCB (Some Parts Missing due to complications)
 <br>
 </div>
 <br>
