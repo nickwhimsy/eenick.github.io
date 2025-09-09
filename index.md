@@ -29,7 +29,7 @@ I’m **Nicholas Chavez**, an Electrical Engineer focused on Power Systems and P
 
 <br>
 
-- [Solar Power Harvester w/ Digital System Protections](https://github.com/eenick/esp32-solar-harvester)
+- [Solar Power Harvester w/ Digital System Protections](https://github.com/eenick/Projects/UHF_RFID_Interrogator.html)
 
 
 
