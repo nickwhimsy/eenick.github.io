@@ -60,21 +60,23 @@ title: Projects
 
 # ⚡ Projects
 
+<!--
     
-    <div class="project-grid">
-    
-      <a href="/Projects/Retro_Handheld_w_Raspberry_CM5.html" class="project-card">
-        <img src="/images/EE_Question.jpg" alt="Retro Handheld Design">
-        <h3>Retro Handheld w/ Raspberry Pi CM5 </h3>
-        <p>Game system handheld using Raspberry Pi CM5 and custom made IO board.</p>
-      </a>
-    
-      <a href="/Projects/USB_C_Power_Adaptor.html" class="project-card">
-        <img src="/images/EE_Question.jpg" alt="USB C Power Brick">
-        <h3>USB-C Power Adaptor Design </h3>
-        <p>USB-C Power Adaptor Design </p>
-      </a>
-    
+<div class="project-grid">
+
+  <a href="/Projects/Retro_Handheld_w_Raspberry_CM5.html" class="project-card">
+    <img src="/images/EE_Question.jpg" alt="Retro Handheld Design">
+    <h3>Retro Handheld w/ Raspberry Pi CM5 </h3>
+    <p>Game system handheld using Raspberry Pi CM5 and custom made IO board.</p>
+  </a>
+
+  <a href="/Projects/USB_C_Power_Adaptor.html" class="project-card">
+    <img src="/images/EE_Question.jpg" alt="USB C Power Brick">
+    <h3>USB-C Power Adaptor Design </h3>
+    <p>USB-C Power Adaptor Design </p>
+  </a>
+
+  -->
 
   <a href="/Projects/Solar_Power_Conditioning.html" class="project-card">
     <img src="/images/Solar_Power_Conditioning.JPG" alt="ESP32 Solar Harvester">
