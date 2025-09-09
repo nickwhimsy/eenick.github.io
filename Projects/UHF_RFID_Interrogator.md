@@ -483,6 +483,8 @@ From the equation, we can get the maximum distance between the vias, which will 
 
 <br>
 
+---
+
 ## References
 
  Dobkin, D. M. (2008). *The RF in RFID: Passive UHF RFID in practice*. Elsevier / Newnes.
