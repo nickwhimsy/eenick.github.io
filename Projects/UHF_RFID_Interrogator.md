@@ -7,7 +7,7 @@ title: Projects
 
 <br><br>
 
-# RFID Interrogator
+# UHF RFID Interrogator
 
 ### Designed by: Nicholas Chavez, Pin-Yi Yeh
 
