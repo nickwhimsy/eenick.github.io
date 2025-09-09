@@ -8,7 +8,14 @@ title: Projects
 
 <br><br>
 
-### Featured Skills:
+### Featured Skills and Tools:
+  - Altium Designer
+  - Circuit Design
+  - PCB Design
+  - Transmission Line
+  - Length Matching
+  - Via Sheilding
+  - FCC Complience
 
 <br><br>
 
