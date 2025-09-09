@@ -2,6 +2,15 @@
 layout: default
 title: Projects
 ---
+
+
+
+<br><br>
+
+# RFID Inventory Tracking System
+
+## Designed by: Nicholas Chavez, Pin-Yi Yeh
+
 <br><br>
 
 ---
