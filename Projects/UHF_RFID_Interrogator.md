@@ -453,7 +453,7 @@ Reducing EMI: Shielding Vias will act as a barrier, protecting sensitive compone
 
 <br>
 
-The placement of the shielding vias needs to be calculated in order to maximize performance. The calculation will need to consider our operating frequency ( $f_\text{max} = 928 \,\text{MHz}$ ) and dielectric properties of the Rogers PCB ($\varepsilon_\gamma = 3.5$). The maximum spacing can be calculated by using the equation shown below. c is the speed of light ( $3 \times 10^8 \,\text{m/s}$ ).
+The placement of the shielding vias needs to be calculated in order to maximize performance. The calculation will need to consider our operating frequency ( $ f_\text{max} = 928 \,\text{MHz} $ ) and dielectric properties of the Rogers PCB ( $ \varepsilon_\gamma = 3.5 $ ). The maximum spacing can be calculated by using the equation shown below. c is the speed of light ( $ 3 \times 10^8 \,\text{m/s} $ ).
 
 <br>
 
