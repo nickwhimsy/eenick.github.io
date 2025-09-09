@@ -483,6 +483,18 @@ From the equation, we can get the maximum distance between the vias, which will 
 
 <br>
 
+The final Product:
+
+<br>
+<div align="center">
+
+<img src="UHF_RFID_Assets/RFID_Interrogator.JPG" alt="RFID Interrogator" style="max-width:100%; height:auto;">
+<br>
+Figure 19: Finalized Product
+<br>
+</div>
+<br>
+
 ---
 
 ## References
