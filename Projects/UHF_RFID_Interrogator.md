@@ -191,7 +191,108 @@ Figure 5: Differential Coplanar Waveguide. (Altium Designer)
 
 For a differential waveguide, it is necessary to utilize the differential impedance rather than the characteristic impedance. To find this, the equation,
 
+$$
+Z_\text{diff} = 2 Z_0 (1 - c)
+$$
 
+is used, where c is the coupling coefficient of the two differential traces, defined as,
+
+$$
+c = \frac{C_m}{C_m + C_s}
+$$
+
+where cm is the mutual capacitance between the two traces, and cs is the capacitance of each trace to ground. The differential impedance can then be defined as:
+
+$$
+Z_\text{diff} = \frac{120 \pi}{\sqrt{\varepsilon_\text{eff}}} \cdot \frac{K(k_s')}{K(k_s)}
+$$
+
+where,
+
+$$
+k = \frac{w}{w + 2g}
+$$
+
+
+Another source of potential signal reflection is at the connections of the traces to pads or vias. In order to minimize reflections from these harsh connections, a teardrop taper is necessary to allow for the signal to adjust to potential impedance changes at these points gradually so as to reduce the amount of reflections caused by the impedance change. This technique is shown in Figure 6:
+
+<br>
+<div align="center">
+
+<img src="UHF_RFID_Assets/Taper.png" alt="Tear Drop Taper" style="max-width:100%; height:auto;">
+<br>
+Figure 6: Tear Drop taper from pad to trace to via.
+<br>
+</div>
+<br>
+
+These teardrop traces need to follow a rule: The length of the taper must be more than three times the width of the difference between the trace and the pad/via. This will allow for the signal to remain largely intact.
+
+
+Additionally, another source of potential issues would be at turns where the trace can no longer travel in a straight line to reach the desired point. Angles at 90 degrees can cause complete signal loss, and at ultra-high frequencies, even 45-degree angles can still lead to many issues with signal integrity. As such, instead of hard angles, a radial curve must be utilized for turning the traces along a path. These traces also follow a similar rule, where the radius that the trace travels must be at least over three times the width of the trace. (Figure 7)
+
+<br>
+<div align="center">
+
+<img src="UHF_RFID_Assets/Curve.png" alt="Trace Curve" style="max-width:100%; height:auto;">
+<br>
+Figure 7: Curve needed for routing traces.
+<br>
+</div>
+<br>
+
+This resolves issues with signal integrity, but another consideration comes along when considering signals that need to be in phase. For these situations, it is necessary to ensure that the signal reaches its destination at practically the same time as another trace. To do this, a length-matching technique must be used, where one wire is routed with alternating curves to ensure the length is matched with the other trace. (Figure 8)
+
+<br>
+<div align="center">
+
+<img src="UHF_RFID_Assets/LengthMatch.png" alt="Length Matched Traces" style="max-width:100%; height:auto;">
+<br>
+Figure 8: Length matched Traces(Right), trace  1 (center), length matched trace 2 (right).
+<br>
+</div>
+<br>
+
+##	Overall System
+
+The overall system being designed is the transceiver itself, allowing for specific parameter adjustments that can be utilized to save cost. The system connects an antenna to the RF Front End, which starts with a circulator that sends and receives signals concurrently. Then the received signal is processed through the RX, or receiving, side, and filtered, amplified, and demodulated to then send to the baseband processing side, where it is converted from an analog signal to a digital one to be read by the microcontroller. The sending signal starts at the microcontroller and is sent through the TX, or transmission, side and is converted from digital to analog, and modulated into a higher frequency to be processed in the RF Front end. There it is filtered and amplified to be sent out the circulator to the antenna. The block diagram for this system is represented in Figure 9.
+
+
+<br>
+<div align="center">
+
+<img src="UHF_RFID_Assets/BlockDiagram.png" alt="System Block Diagram" style="max-width:100%; height:auto;">
+<br>
+Figure 9: RF Block Diagram
+<br>
+</div>
+<br>
+
+In order to properly facilitate the design, the board needs to be separated into multiple layers. This is to ensure that the RF signals are not interfered with by other elements of the device, such as the power and the SPI signals, and to have a layer to act as a unified ground. Figure 10 shows the stack up, with L1 being the RF Layer, L2 being the Ground plane, L3 being the Power Plane, and L4 being the SPI Layer.
+
+<br>
+<div align="center">
+
+<img src="UHF_RFID_Assets/Stackup.png" alt="PCB Stackup" style="max-width:100%; height:auto;">
+<br>
+Figure 10: Stackup for PCB.
+<br>
+</div>
+<br>
+
+## RF Front End
+
+For the RF front-end portion of the design, the focus was to ensure that the signal remained intact and that only the correct frequencies were processed. This starts with designing the bandpass filter, which was chosen to be a Chebyshev filter. Utilizing frequency tools, the capacitance and inductance of each component were determined, and the resulting design is shown in Figure 11, and the frequency response in Figure 12.
+
+<br>
+<div align="center">
+
+<img src="UHF_RFID_Assets/FilterDesign.png" alt="Band Pass Filter" style="max-width:100%; height:auto;">
+<br>
+Figure 11: Bandpass Filter for a bandwidth of 902-928MHz.
+<br>
+</div>
+<br>
 
 <br>
 <div align="center">
@@ -202,3 +303,6 @@ Figure 12: Bandpass filter frequency response.
 <br>
 </div>
 <br>
+
+
+
