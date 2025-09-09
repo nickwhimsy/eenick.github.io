@@ -304,5 +304,136 @@ Figure 12: Bandpass filter frequency response.
 </div>
 <br>
 
+The next task was to select components for the remaining portion of the circuit. For the RF Front end that meant selecting the components that would be processing all of the UHF signals. The Schematic was then drawn up in Altium Designer as shown in Figure 13.
+
+<br>
+<div align="center">
+
+<img src="UHF_RFID_Assets/TXschem.png" alt="TX Schematic" style="max-width:100%; height:auto;">
+<img src="UHF_RFID_Assets/RXschem.png" alt="RX Schematic" style="max-width:100%; height:auto;">
+<br>
+Figure 13: Altium Designer schematic for TX(top) and RX(bottom) portions of the design.
+<br>
+</div>
+<br>
+
+This was then transferred to a PCB design, using Altium Designer again, to conduct all connections and appropriate calculations for the PCB requirements. The PCB is shown in Figure 14.
+
+<br>
+<div align="center">
+
+<img src="UHF_RFID_Assets/RF_PCB_FrontEnd.png" alt="RF PCB Front End Layer" style="max-width:100%; height:auto;">
+<br>
+Figure 14: RF Front End PCB layer.
+<br>
+</div>
+<br>
+
+The entire RF Front end needed to be shielded from other components, and as such, a ground layer was then placed directly below, which also connected to all the necessary grounding vias that were placed for the components. (Figure 15)
+
+<br>
+<div align="center">
+
+<img src="UHF_RFID_Assets/RF_PCB_Ground.png" alt="RF PCB Ground Layer" style="max-width:100%; height:auto;">
+<br>
+Figure 15: Ground Plane, with all Vias (in green).
+<br>
+</div>
+<br>
+
+## Basband Processing
+
+The baseband portion of the circuit directly follows the DACs and ADCs of the TX and RX circuits respectively. These connections were run through to the bottom layer of the board to separate the routing of the SPI traces from the RF traces. These were then sent to the microcontroller which was designed to be placed on board as well. The Schematic for the SPI connections can be seen in Figure 16, showing the microcontroller connections.
+
+
+<br>
+<div align="center">
+
+<img src="UHF_RFID_Assets/BasebandSchem.png" alt="Baseband Schematic" style="max-width:100%; height:auto;">
+<br>
+Figure 16: Schematic of Connectors, including ESP32 Microcontroller.
+<br>
+</div>
+<br>
+
+There are pairs for the ADCs and DACs, since the demodulated and modulated signals are done through a differential, which has a phase shift of 90 degrees, however, the microcontroller sends data and clock information via a single pin for each. This means that the microcontroller must select the active component of the 4, and then send data to the correct component. This means that the Clock and Data traces running to each of the 4 components must be of the same length to ensure appropriate timing from the components and the microcontroller. The selection pins for selecting the active component must also be length-matched to each other but can be different in length from the clock and data traces. The routing of these traces can be seen in Figure 17.
+
+<br>
+<div align="center">
+
+<img src="UHF_RFID_Assets/RF_PCB_Baseband.png" alt="RF PCB Baseband Layer" style="max-width:100%; height:auto;">
+<br>
+Figure 17: SPI Traces, length matched from ADCs and DACs to the microcontroller.
+<br>
+</div>
+<br>
+
+## Power Delivery
+
+In our design, we require various voltages for distinct purposes.
+
+5V: This voltage is delivered through a USB-C port, with a Fuse for overcurrent protection and a Transient Voltage Suppression (TVS) diode for overvoltage protection, ESD protection, and reverse polarity protection. Using a fuse and TVS diode can protect the circuit and ensure system stability. The schematic diagram can be seen in the figure 16.
+ 
+3.3V: This voltage is provided by the voltage regulator on the microcontroller board and delivered to the LNA.
+ 
+2V: This voltage is used to maintain voltage control. The Oscillator is about to produce the desired stable frequency. We choose to use a buck converter to provide a stable output voltage of 2V.
+ 
+1.5V: This voltage is needed for the transformers situated between the Modulator and the DAC. These transformers are designed to convert the single-ended signal into a differential signal, using the 1.5V to provide the necessary bias voltage for the Modulator. We selected an LDO to generate the 1.5V for the transformer because it features an ultra-low dropout voltage and a high power supply rejection ratio.
+
+
+For each voltage level, we install an LED voltage indicator along with an OR gate. This setup offers visual feedback to the user and is particularly useful for circuit debugging. The light serves as a safety indicator, warning users that power remains in the circuit, which helps prevent accidental damage or electric shock.
+
+<br>
+<div align="center">
+
+<img src="UHF_RFID_Assets/PowerSchem.png" alt="Power Schematic" style="max-width:100%; height:auto;">
+<br>
+Figure 17: Schematic for Power Delivery
+<br>
+</div>
+<br>
+
+<br>
+<div align="center">
+
+<img src="UHF_RFID_Assets/RF_PCB_Power.png" alt="RF PCB Power Layer" style="max-width:100%; height:auto;">
+<br>
+Figure 18: Power Delivery Layer.
+<br>
+</div>
+<br>
+
+## Via Sheilding
+
+​​In our UHF circuit design, applying shielding using via is essential to maintain signal integrity and minimize electromagnetic interference (EMI). Frequency in this range makes it easy to have crosstalk, ground bounce, and signal loss due to poor PCB layout. To fix this issue, we use shielding around critical signal paths such as UHF RF signals and differential pair signals.
+
+
+The main reasons for using via shielding for our design were:
+
+Reducing crosstalk: surround targeted signal with the ground via minimizing electromagnetic coupling.
+
+Stabilizing Ground Potential: shielding vias can provide an additional path for returning current. This can stabilize ground voltage and reduce ground pounce.
+
+Improve Signal Integrity: placing via around the trace and creating electromagnetic fields around the trace, which will reduce signal reflections and maintain clean transmission.
+
+Reducing EMI: Shielding Vias will act as a barrier, protecting sensitive components from other noise sources and improving overall performance.
+
+
+The placement of the shielding vias needs to be calculated in order to maximize performance. The calculation will need to consider our operating frequency ( $f_\text{max} = 928 \,\text{MHz}$ ) and dielectric properties of the Rogers PCB ($\varepsilon_\gamma = 3.5$). The maximum spacing can be calculated by using the equation shown below. c is the speed of light ( $3 \times 10^8 \,\text{m/s}$ ).
+
+$$
+\text{Max Via Spacing (mm)} = \frac{1}{10} \cdot \frac{c}{f \sqrt{\varepsilon_\gamma}}
+$$
+
+From the equation, we can get the maximum distance between the vias, which will be approximately 10mm apart. Our design uses a distance of 1 mm because of the restricted board size. This 1 mm spacing enhances signal shielding, which is crucial for a compact PCB design.
+
+
+## References
+
+[^1]: Dobkin, D. M. (2008). *The RF in RFID: Passive UHF RFID in practice*. Elsevier / Newnes.
+[^2]: Sarma, Sanjay. (2009). “RFIDSim - A physical and logical layer simulation engine for passive RFID.” *Automation Science and Engineering, IEEE Transactions on*, 6, 33–43. [DOI: 10.1109/TASE.2008.2007929](https://doi.org/10.1109/TASE.2008.2007929)
+[^3]: Schweber, B. (2014, March 6). “The Smith chart: An ‘ancient’ graphical tool still vital in RF Design.” DigiKey. [Link](https://www.digikey.com/en/articles/the-smith-chart-an-ancient-graphical-tool-still-vital-in-rf-design)
+[^4]: Tait Radio Academy. (2018, January 2). “How does modulation work?” Tait Radio Academy. [Link](https://www.taitradioacademy.com/topic/how-does-modulation-work-1-1/)
+
 
 
